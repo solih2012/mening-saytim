@@ -1,0 +1,66 @@
+body {
+    background: #ffecaa;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.asos{
+    width: 450px;
+    height: 250px;
+    display: flex;
+    background: white;
+    box-shadow: 0 4px 10px #999;
+}
+
+.rasm {
+    width: 35%;
+    background: #d9534f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rasm img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.asos h5, .left p {
+    background: rgba(0,0,0,0.2);
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.bolim {
+    width: 65%;
+    padding: 20px;
+    text-align: center;
+}
+
+.bolim h2 {
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.bolim p {
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.bolim small {
+    display: block;
+    margin-top: 30px;
+    color: gray;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
